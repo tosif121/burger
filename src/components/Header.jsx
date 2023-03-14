@@ -35,8 +35,8 @@ function Header() {
                     <FaBars onClick={handleClick} className="main-color mb-4" />
                   </div>
                   <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto text-uppercase fs-5 main-color">
-                      <Nav.Link className="p-0 main-color burger-link" href="#home">
+                    <Nav className="ms-auto text-uppercase fs-5">
+                      <Nav.Link className="p-0 main-color burger-link ms-4" href="#home">
                         Home
                       </Nav.Link>
                       <Nav.Link className="p-0 main-color burger-link ms-4" href="#Menu">
@@ -62,7 +62,7 @@ function Header() {
                     }`}
                   >
                     <div className="d-flex flex-column mt-3 main-navbar">
-                      <Nav.Link className="p-0 main-color burger-link" href="#home">
+                      <Nav.Link className="p-0 main-color burger-link ms-4" href="#home">
                         Home
                       </Nav.Link>
                       <Nav.Link className="p-0 main-color burger-link ms-4" href="#Menu">

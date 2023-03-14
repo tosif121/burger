@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { Col, Container, Row } from 'react-bootstrap';
 const Footer = () => {
   return (
-    <div className="d-flex justify-content-center pb-5">
+    <div className="d-flex justify-content-center">
       <div className="footerimg py-5 shadow text-white">
         <Container>
           <Row>
