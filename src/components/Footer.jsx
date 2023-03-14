@@ -12,7 +12,7 @@ const Footer = () => {
                 <img width={270} src="/images/logo2.svg" alt="" />
                 <div className="row">
                   <div className="col-lg-6">
-                    <p className="py-lg-5">
+                    <p className="py-lg-5 mt-3 mt-lg-0">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, explicabo dicta? Accusantium quod
                       et possimus recusandae iste quisquam ab enim. Perferendis quos eum quas, voluptas saepe
                       consectetur iusto, dignissimos excepturi voluptatum explicabo placeat fugiat minus?
