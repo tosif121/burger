@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 10px;
+  background: #3d2514 !important;
+}
+
+.main-color {
+  color: #3d2514;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  background-color: #ffc045;
+  border-radius: 100%;
+}
+
+.carousel-indicators {
+  margin-left: 11px;
+  right: unset;
+}
+.main-navbar .nav-link {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+}
+
+.main-navbar .burger-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  margin: 10px 0px -10px -5px;
+  transition: all 0.2s;
+  background-color: #fee8bc;
+}
+.main-navbar .burger-link:hover {
+  color: #fee8bc !important;
+}
+.main-navbar .burger-link:hover::after {
+  width: 100%;
+}
+
+.main-bg {
+  background: url('/public/images/bg.png');
+  height: auto;
+}
+
+.dotted-border {
+  border: 2px dashed #3d2514;
+  display: inline-block;
+}
+
+.burger-text {
+  font-family: 'Alfa Slab One' !important;
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+.burger-text h1 {
+  font-size: 114px;
+}
+.burger-text h2 {
+  font-size: 75px;
+}
+.burgereek img {
+  max-width: 940px;
+}
+
+.burger-choose .card-title,
+.carousel-inner h5 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.carousel-inner h6 {
+  font-family: 'Alfa Slab One' !important;
+}
+
+.burger-card {
+  height: 330px;
+}
+
+.burger-choose h5 {
+  width: max-content;
+  background-color: #ffc045;
+}
+
+.burger-choose h3 {
+  font-family: 'Alfa Slab One' !important;
+}
+
+.burger-choose p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.burger-choose button {
+  background-color: #bf2222;
+  font-family: 'Alfa Slab One' !important;
+}
+
+.burger-choose button:hover {
+  border-color: #bf2222;
+  color: #bf2222 !important;
+  transition: all 0.4s;
+}
+
+.footer-image {
+  background: url('/public/images/co-1.png') no-repeat, url('/public/images/coBurger2.png') no-repeat;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: -83px -46px, bottom -100px right -287px;
+}
+.footerimg {
+  background: url('/public/images/foo.png') no-repeat;
+  height: auto;
+}
+
+.footer-image .form-control {
+  width: 340px;
+  height: 45px;
+}
+.footer-image button {
+  width: 340px;
+  height: 45px;
+}
+
+/* left bar */
+
+.mobile-menu {
+  height: 100vh;
+  z-index: 5;
+  width: 0px;
+  transition: width 0.5s;
+}
+.expand-menu {
+  width: 75%;
+}
+
+.expand {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('/public//images/close.svg');
+  background-repeat: no-repeat;
+  background-position: right 12px top 12px;
+  background-size: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  .burger-text h1 {
+    font-size: 40px;
+  }
+  .burger-text h2 {
+    font-size: 20px;
+  }
+  .burger-card {
+    height: auto;
+  }
+  .carousel-indicators {
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+  .footer-image .form-control,
+  .footer-image button {
+    width: 100%;
+  }
+  .footerimg .w-50 {
+    width: 100% !important;
+  }
+  .footer-image {
+    background: unset;
+    height: unset;
+  }
+}
